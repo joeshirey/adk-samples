@@ -2,6 +2,12 @@
 
 This sample application demonstrates a Time Series Forecasting Agent built using the Google Agent Development Kit (ADK) for Java. The agent leverages an MCP (Model Context Protocol) Toolbox server to access and execute forecasting tools defined against a Google BigQuery backend.
 
+## 💡 ADK Features Demonstrated
+
+*   **`LlmAgent`**: The agent is built using the `LlmAgent` class, which provides a declarative way to define the agent's behavior.
+*   **`McpToolset`**: The agent uses `McpToolset` to dynamically load tools from an MCP server. This allows for a separation of concerns between the agent's logic and the implementation of its tools.
+*   **BigQuery Integration**: The tools loaded by the agent are defined as BigQuery SQL queries, demonstrating how to integrate the ADK with external data services like BigQuery.
+
 ## Features ✨
 
 * **AI-Powered Forecasting**: Utilizes a Large Language Model (LLM) (e.g., Gemini) to understand user requests and orchestrate forecasting tasks.

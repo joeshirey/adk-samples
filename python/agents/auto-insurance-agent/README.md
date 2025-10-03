@@ -4,6 +4,12 @@
 
 This agent sample acts as a helpful virtual assistant for an auto insurance company. It is able to register new members and perform several functions for existing members, including filing claims, providing roadside assistance, and returning information about reward offers from partner companies.  The agent uses several tools to fulfill these tasks. The tools are custom APIs registered in [Apigee API hub](https://cloud.google.com/apigee/docs/apihub/what-is-api-hub).
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: The agent uses a root agent to route requests to specialized sub-agents, demonstrating a common and effective agent design pattern.
+*   **`ApiHubToolset`**: The agent uses `ApiHubToolset` to create tools from OpenAPI specifications stored in Apigee API Hub. This is a powerful feature for integrating with existing APIs.
+*   **Authentication**: The agent demonstrates how to handle API key authentication for tools, retrieving the key from Secret Manager.
+
 ## Agent Details
 
 | Attribute | Detail |

@@ -7,6 +7,10 @@ This agent sample showcases the art of the possible using the ADK and [Applicati
 - Orchestrating email confirmations once the order data has been written to BigQuery
 - Invoking a “Human in the Loop” approval pattern if the order quantity exceeds 100
 
+## 💡 ADK Features Demonstrated
+
+*   **`ApplicationIntegrationToolset`**: The agent uses the `ApplicationIntegrationToolset` to create a tool from a Google Cloud Application Integration. This is a powerful feature for integrating with enterprise systems and orchestrating complex workflows.
+*   **Human-in-the-Loop**: The workflow includes a human approval step, demonstrating how to build agents that can interact with people to handle exceptions and edge cases.
 
 ## Agent Details
 

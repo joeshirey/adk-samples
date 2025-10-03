@@ -4,6 +4,14 @@
 
 This agent is designed to enhance product data for retail websites. It generates keywords based on product data such as title, description, and attributes. It then visits a website, searches, and analyzes top results to provide suggestions for enriching product titles. This helps address issues like "Null & low recovery" or "Zero Results" searches by identifying gaps in product data. The agent can be extended to support enriching descriptions and attributes. Key tools it uses are: computer use and bigquery data connection.
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: This agent follows the multi-agent pattern, with a root agent orchestrating several specialized sub-agents.
+*   **Web Browsing**: The `search_results_agent` uses the `selenium` library to control a web browser, demonstrating how to create agents that can interact with websites.
+*   **Multimodality**: The `take_screenshot` tool captures a screenshot and saves it as an artifact. This, combined with the agent's ability to analyze the page source, showcases a multimodal approach to web interaction.
+*   **BigQuery Integration**: The `keyword_finding_agent` uses a tool to query BigQuery, demonstrating how to integrate with data warehouses.
+*   **`load_artifacts_tool`**: The agent uses the `load_artifacts_tool` to load the screenshot, which can then be used for analysis.
+
 ## Agent Details
 
 This agent showcases Multi Agent setup with tool calling and web crawling

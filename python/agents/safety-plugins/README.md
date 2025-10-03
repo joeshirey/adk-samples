@@ -2,6 +2,12 @@
 ## Overview
 This repository provides an example of a multi-agent system built with the Agent Development Kit (ADK), focusing on how to implement global safety guardrails using ADK's plugin feature. The system includes two distinct safety plugins: one that uses an agent as a judge and another that leverages the Model Armor API.
 
+## 💡 ADK Features Demonstrated
+
+*   **Plugins**: This sample demonstrates how to create and use plugins to add functionality to the agent runner.
+*   **Callbacks**: The plugins use various callbacks (`on_user_message_callback`, `before_tool_callback`, `after_tool_callback`, `after_model_callback`) to intercept and process messages at different points in the agent's lifecycle.
+*   **Agent as a Judge**: The `LlmAsAJudge` plugin uses an agent to evaluate the safety of content, showcasing a powerful pattern for implementing safety guardrails.
+
 ## Safety Plugins
 The core of this example is demonstrating safety plugins using two different approaches: Gemini as a judge and Model Armor. Both plugins use hooks to send relevant messages and content to their respective safety filters, which then determine whether the content should be filtered or blocked.
 

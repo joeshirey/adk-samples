@@ -2,6 +2,13 @@
 
 This project contains the core logic for the Blogger Agent, a multi-agent system designed to assist users in creating technical blog posts. The agent is built using the Google Agent Development Kit (ADK) and follows a modular architecture.
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: This agent follows the multi-agent pattern, with a root agent orchestrating several specialized sub-agents.
+*   **`FunctionTool`**: The agent uses `FunctionTool` to create tools from Python functions (`save_blog_post_to_file`, `analyze_codebase`). This is a straightforward way to create custom tools.
+*   **State Management**: The agent's workflow implies that it's managing state across multiple turns, such as the blog post outline and the draft of the blog post.
+*   **Human-in-the-Loop**: The workflow explicitly includes steps for user feedback and refinement, which is a crucial aspect of many agentic systems.
+
 ## Getting Started with uv
 
 This project uses [uv](https://github.com/astral-sh/uv) for dependency management.

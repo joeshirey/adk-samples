@@ -6,6 +6,11 @@ This repository provides a full-stack, reusable template for building real-time,
 
 This template handles all the complex WebSocket and media streaming "plumbing," allowing you to focus on what matters: building your agent's logic and UI.
 
+## 💡 ADK Features Demonstrated
+
+*   **Live API (Native Audio)**: The agent uses the Live API to stream audio to and from the user, enabling real-time, voice-based conversations.
+*   **Multimodality**: The agent can process both audio and video streams, showcasing its ability to handle multiple modes of input.
+
 ## Agent Details
 
 | Feature | Description |

@@ -14,6 +14,32 @@ This repo contains ADK sample agents for both **Python** and **Java.** Navigate 
 
 To learn more, check out the [ADK Documentation](https://google.github.io/adk-docs/), and the GitHub repositories for [ADK Python](https://github.com/google/adk-python) and [ADK Java](https://github.com/google/adk-java). 
 
+## 💡 ADK Features Demonstrated
+
+This repository showcases a variety of agentic patterns and technical features of the ADK. Use the following guide to find examples of specific concepts:
+
+### Agentic Patterns
+
+| Pattern | Description | Samples |
+| :--- | :--- | :--- |
+| **Multi-Agent Systems** | Examples of how to build complex systems with multiple agents that collaborate to solve a problem. | [Academic Research](python/agents/academic-research), [Auto Insurance Agent](python/agents/auto-insurance-agent), [Blog Writer](python/agents/blog-writer), [Brand Search Optimization](python/agents/brand-search-optimization), [Financial Advisor](python/agents/financial-advisor), [Travel Concierge](python/agents/travel-concierge) |
+| **Agents as Tools** | Demonstrates how to use one agent as a tool for another agent, enabling modular and reusable agent design. | [Academic Research](python/agents/academic-research), [Software Bug Assistant (Java)](java/agents/software-bug-assistant) |
+| **Human-in-the-Loop** | Workflows that explicitly include steps for user feedback and refinement. | [Blog Writer](python/agents/blog-writer) |
+
+### Technical Features
+
+| Feature | Description | Samples |
+| :--- | :--- | :--- |
+| **`ApiHubToolset`** | Create tools from OpenAPI specifications stored in Apigee API Hub. | [Auto Insurance Agent](python/agents/auto-insurance-agent) |
+| **`McpToolset`** | Dynamically load tools from a Model Context Protocol (MCP) server. | [Software Bug Assistant (Java)](java/agents/software-bug-assistant), [Time Series Forecasting (Java)](java/agents/time-series-forecasting) |
+| **`FunctionTool`** | Create tools from simple Python functions. | [Blog Writer](python/agents/blog-writer) |
+| **Built-in Tools** | Use out-of-the-box tools like `google_search`. | [Academic Research](python/agents/academic-research), [Software Bug Assistant (Java)](java/agents/software-bug-assistant) |
+| **Web Browsing** | Create agents that can interact with websites using `selenium`. | [Brand Search Optimization](python/agents/brand-search-optimization) |
+| **Multimodality** | Process and generate multiple types of data, such as text and images. | [Brand Search Optimization](python/agents/brand-search-optimization) |
+| **BigQuery Integration** | Connect to BigQuery to query and analyze data. | [Brand Search Optimization](python/agents/brand-search-optimization), [Time Series Forecasting (Java)](java/agents/time-series-forecasting) |
+| **State Management** | Manage conversational history and state across multiple turns. | All samples |
+| **Authentication** | Handle API key authentication for tools, including retrieving secrets from Secret Manager. | [Auto Insurance Agent](python/agents/auto-insurance-agent) |
+
 ## 🌳 Repository Structure
 ```bash
 ├── java

@@ -22,6 +22,11 @@ Final Output: The system consolidates the analysis into a final PDF report and s
 
 This automated solution transforms the complex pre-authorization process, leveraging AI to deliver efficient and accurate results.
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: The agent is composed of a main agent and two sub-agents, demonstrating a hierarchical agent architecture.
+*   **`AgentTool`**: The main agent uses the sub-agents as tools, which is a powerful pattern for creating modular and reusable agents.
+*   **Multimodality**: The agent processes PDF documents, showcasing its ability to handle different types of data.
 
 ## Agent Details
 

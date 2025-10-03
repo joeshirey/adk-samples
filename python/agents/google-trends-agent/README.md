@@ -12,6 +12,10 @@ This agent has several important limitations to be aware of:
 - **No Open-ended Searches**: You cannot ask for trends on specific topics (e.g., "trending terms about AI agents") if they aren't already ranked as top terms in the dataset.
 - **Regional Limitations**: Only regions included in the BigQuery dataset are available.
 
+## 💡 ADK Features Demonstrated
+
+*   **Sequential Agent**: This agent is a sequential agent, where the output of one sub-agent is passed as the input to the next. This is a common pattern for creating workflows.
+*   **BigQuery Integration**: The agent uses a tool to query the public Google Trends dataset on BigQuery, demonstrating how to integrate with data warehouses.
 
 ## Agent Architecture
 

@@ -10,6 +10,14 @@ This README contains instructions for local and Google Cloud deployment.
 - [💻 Run Locally](#run-locally)
 - [☁️ Deploy to Google Cloud](#deploy-to-google-cloud)
 
+## 💡 ADK Features Demonstrated
+
+*   **`LlmAgent`**: The core of the agent is an `LlmAgent`, which is a declarative way to define an agent's behavior, including its model, instructions, and tools.
+*   **`McpToolset`**: The agent connects to an MCP server to dynamically load tools. This demonstrates the use of the Model Context Protocol for tool discovery and execution.
+*   **`GoogleSearchTool`**: The agent uses the built-in `GoogleSearchTool` for web searches.
+*   **`AgentTool`**: The agent wraps another agent (`googleSearchAgent`) as a tool, showcasing the concept of agents as tools.
+*   **`InMemoryRunner`**: The `main` method uses an `InMemoryRunner` to run the agent locally, which is useful for development and testing.
+
 ## Run Locally 
 
 #### Prerequisites 

@@ -12,6 +12,14 @@ During the pre-booking stage, different agents are constructed to help the trave
 
 In the post-booking stage, given a concrete itinerary, a different set of agents support the traveler's needs before, during and after the trip. For example, the pre-trip agent checks for visa and medical requirements, travel advisory, and storm status. The in-trip agent monitors for any changes to bookings, with a day-of agent that helps the traveler getting from A to B during the trip. The post-trip agent helps collect feedback and identify additional preferences for future travel plans.
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: The agent is composed of a cohort of specialized agents that work together to provide a comprehensive travel concierge experience.
+*   **`AgentTool`**: The agent uses other agents as tools, demonstrating a powerful pattern for creating modular and reusable agents.
+*   **`google_search_grounding`**: The `pre_trip_agent` uses `google_search_grounding` to get up-to-date information about travel advisories and other important information.
+*   **`FunctionTool`**: The agent uses `FunctionTool` to create tools from Python functions.
+*   **State Management**: The agent uses the session state to store the user's itinerary and preferences, demonstrating how to manage state across multiple turns and sessions.
+*   **MCP Integration**: The agent demonstrates how to use the `McpToolset` to connect to an MCP server and use its tools.
 
 ## Agent Details
 The key features of the Travel Concierge include:

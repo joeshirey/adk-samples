@@ -54,6 +54,21 @@ Check out the agent samples below, organized by category:
 | [Order Processing](order-processing) | This agent sample showcases how [Application Integration Connectors](https://cloud.google.com/application-integration/docs/using-integration-connectors) can be leveraged to automate orders and include human in the loop for workflows |   [Application Integration](https://cloud.google.com/application-integration/docs/overview), [Integration Connectors](https://cloud.google.com/integration-connectors/docs/overview), Agent Tool  | Conversational | Easy | Single Agent | Order Management
 | [Google Trends Agent](google-trends-agent) | Surfaces top trending search terms from Google Trends using BigQuery dataset. Shows trending topics by region and time period. | BigQuery, Trend analysis, Sequential agent | Conversational | Medium | Sequential Agent | Marketing & Analytics |
 
+## ADK Features Demonstrated
+
+| Agent Name | Key ADK Features |
+| :--- | :--- |
+| [Academic Research](academic-research) | Multi-Agent System, `AgentTool`, `google_search` |
+| [Auto Insurance Agent](auto-insurance-agent) | Multi-Agent System, `ApiHubToolset`, Authentication |
+| [Blog Writer](blog-writer) | Multi-Agent System, `FunctionTool`, Human-in-the-Loop |
+| [Brand Search Optimization](brand-search-optimization) | Multi-Agent System, Web Browsing, Multimodality, BigQuery Integration, `load_artifacts_tool` |
+| [Financial Advisor](financial-advisor) | Multi-Agent System, `google_search` |
+| [Google Trends Agent](google-trends-agent) | Sequential Agent, BigQuery Integration |
+| [Medical Pre-Authorization](medical-pre-authorization) | Multi-Agent System, `AgentTool` |
+| [Order Processing](order-processing) | `ApplicationIntegrationToolset`, Human-in-the-Loop |
+| [Real-time Conversational Agent](realtime-conversational-agent) | Live API (Native Audio), Multimodality |
+| [Safety Plugins](safety-plugins) | Plugins, `on_user_message_callback`, `before_tool_callback`, `after_tool_callback`, `after_model_callback` |
+| [Travel Concierge](travel-concierge) | Multi-Agent System, `AgentTool`, `google_search_grounding`, `FunctionTool`, State Management |
 
 
 ## Using the Agents in this Repository

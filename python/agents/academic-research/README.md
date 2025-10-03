@@ -10,6 +10,13 @@ AI-driven agent designed to facilitate the exploration of the academic landscape
 
 This capability aims to provide researchers with valuable insights into the ongoing impact of seminal research and to highlight promising avenues for novel investigation, thereby accelerating the research discovery process.
 
+## 💡 ADK Features Demonstrated
+
+*   **Multi-Agent System**: The agent is composed of a coordinator agent and two sub-agents, demonstrating a hierarchical agent architecture.
+*   **`AgentTool`**: The coordinator agent uses the sub-agents as tools, which is a powerful pattern for creating modular and reusable agents.
+*   **Built-in Tools**: The `academic_websearch_agent` uses the built-in `google_search` tool.
+*   **Prompt Engineering**: The use of separate `prompt.py` files for each agent highlights the importance of prompt engineering in agent development.
+
 ## Agent Details
 
 The key features of the Academic Research include:
@@ -389,7 +396,6 @@ All remote agents:
 123456789 ("academic_research")
 - Create time: 2025-05-10 09:33:46.188760+00:00
 - Update time: 2025-05-10 09:34:32.763434+00:00
-
 ```
 
 You may interact with the deployed agent using the `test_deployment.py` script
